@@ -29,6 +29,7 @@ Base on nginx
 # run the docker container with your own build
 
     git clone https://github.com/alexwhen/docker-2048.git
+    cd docker-2048
     docker build -t docker-2048 .
     docker run -d -p 2048:80 docker-2048
 
